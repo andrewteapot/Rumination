@@ -1,0 +1,25 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+body{
+
+    background-color:black;
+}
+
+td{
+    display: inline-block;
+    width: 302px;
+    height: 300px;
+}
+tr{
+    width: 302px;
+    height: 300px;
+}
+table{
+position: relative;
+top: 40px;
+margin-left: auto;
+margin-right: auto;
+}
