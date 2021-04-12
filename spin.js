@@ -32,3 +32,14 @@ let randomize = () =>
 
 
 setInterval('randomize()', 60);
+let ifchrome_colorchange = (theid) =>{
+    let nav = navigator.userAgent;
+
+    let tochange = document.getElementById(theid);
+
+    if(nav.includes("Chrome")==true){
+        tochange.style.filter = "hue-rotate(-7deg) brightness(110%)";
+    }
+}
+ifchrome_colorchange("ru");
+ifchrome_colorchange("citrine");

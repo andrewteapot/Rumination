@@ -2,7 +2,13 @@
 margin: 0px;
 padding: 0px;
 image-rendering: crisp-edges;
-
+image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+image-rendering: -moz-crisp-edges;          /* Firefox                        */
+image-rendering: -o-crisp-edges;            /* Opera                          */
+image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+image-rendering: pixelated; /* Chrome */
+image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+-ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
 }
 
 body{
@@ -30,6 +36,9 @@ top: -20px;
 #ru{
     
     max-width:100%;
+    
+      
+     
 }
 #spi{
 position: relative;
@@ -56,11 +65,15 @@ font-size: 90%;
 letter-spacing: 15px;
 }
 .peer{
+  /*-moz-transform: scale(0.7);*/
+  -webkit-transform: scale(0.7);
   -moz-transform: scale(0.7);
-  zoom: 0.7;
+  -o-transform: scale(0.7);
+  transform: scale(0.7);
   position: relative;
   top: -50px;
   text-align: center;
+  display:block
 }
 .blocks, li{
 display: inline;
@@ -105,7 +118,7 @@ top: 30px;
 .oath2{
   display: inline;
   color: #00efc6;
-  font-family: "Oath_Two";
+  font-family: Oath;
   margin: 70px;
 font-size: 150%;
 }
@@ -131,4 +144,7 @@ a {
       src: url("fonts/Butler_Black.otf");
     font-weight: 800;
     }
-  
+  #ru{
+
+    /*filter: hue-rotate(-7deg) brightness(110%);*/
+  }
