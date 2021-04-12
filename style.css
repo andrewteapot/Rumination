@@ -1,0 +1,134 @@
+*{
+margin: 0px;
+padding: 0px;
+image-rendering: crisp-edges;
+
+}
+
+body{
+background-color: #f70f69;
+overflow: hidden;
+
+}
+
+#vid{
+position: relative;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+width: 100%;
+height: 600px;
+
+}
+.oath{
+color: #00efc6;
+font-family: Oath;
+font-size: 23px;
+position: relative;
+top: -20px;
+}
+#ru{
+    
+    max-width:100%;
+}
+#spi{
+position: relative;
+
+transition: all 0.5s;
+transition-timing-function: linear;
+}
+#ban{
+    position: absolute;
+  
+}
+#citrine{
+position: relative;
+top:-245px;
+
+}
+h3{
+font-family: butler;
+font-weight: 900;
+color: #00efc6;
+position: relative;
+top: -70px;
+font-size: 90%;
+letter-spacing: 15px;
+}
+.peer{
+  -moz-transform: scale(0.7);
+  zoom: 0.7;
+  position: relative;
+  top: -50px;
+  text-align: center;
+}
+.blocks, li{
+display: inline;
+color: #00efc6;
+font-family: butler;
+font-weight: 900;
+position: relative;
+top: 10px;
+
+}
+
+li{
+
+margin:  3vw ;
+margin-bottom: 5px;
+
+}
+header{
+  text-align: center;
+}
+
+::-moz-selection { 
+  color: #f70f69;
+  background: #00efc6;
+}
+
+::selection {
+  color: #f70f69;
+  background: #00efc6;
+}
+
+#logo{
+margin-left: 50px;
+margin-right: 50px;
+position: relative;
+top: 30px;
+}
+#somenav{
+  position: relative;
+  top: -40px;
+}
+.oath2{
+  display: inline;
+  color: #00efc6;
+  font-family: "Oath_Two";
+  margin: 70px;
+font-size: 150%;
+}
+
+a {
+  text-decoration: none;
+  transition: color 1s;
+  text-emphasis: none;
+  color: rgb(0, 239, 199);
+  }
+  a:hover{
+      
+      color: #570d9c;
+  }
+  @font-face{
+    font-family: Oath;
+    src: url("fonts/Oath_Two.ttf");
+    font-weight: 800;
+    
+  }
+  @font-face{
+    font-family: Butler;
+      src: url("fonts/Butler_Black.otf");
+    font-weight: 800;
+    }
+  
