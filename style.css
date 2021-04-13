@@ -10,13 +10,10 @@ image-rendering: pixelated; /* Chrome */
 image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
 -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
 }
-
 body{
 background-color: #f70f69;
 overflow: hidden;
-
 }
-
 #vid{
 position: relative;
 display: block;
@@ -24,7 +21,6 @@ display: block;
   margin-right: auto;
 width: 100%;
 height: 20vw;
-
 }
 .oath{
 color: #00efc6;
@@ -33,17 +29,12 @@ font-size: 3.5vh;
 position: relative;
 top: -2.3vh;
 }
-#ru{
-    
+#ru{    
     max-width:100%;
-    height: 27vh;
-      
-     
+    height: 27vh;    
 }
-
 ul{
-  position:relative;
-  
+  position:relative; 
 }
 #spi{
 position: relative;
@@ -71,7 +62,6 @@ font-size: 2.5vh;
 letter-spacing: 15px;
 }
 .peer{
-  
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
   -o-transform: scale(0.8);
@@ -80,7 +70,6 @@ letter-spacing: 15px;
   top: 1vh;
   text-align: center;
   display:block;
- 
 }
 .blocks, li{
 display: inline;
@@ -89,12 +78,8 @@ font-family: butler;
 font-weight: 900;
 position: relative;
 top: 1vw;
-
-
 }
-
 li{
-
 margin:  3vh ;
 margin-bottom: 5vh;
 font-size: 3vh;
@@ -102,19 +87,15 @@ height: 0vh;
 }
 header{
   text-align: center;
-
 }
-
 ::-moz-selection { 
   color: #f70f69;
   background: #00efc6;
 }
-
 ::selection {
   color: #f70f69;
   background: #00efc6;
 }
-
 #logo{
 margin-left: 50px;
 margin-right: 50px;
@@ -133,36 +114,30 @@ height: 14vh;
   margin: 10vh;
 font-size: 4vh;
 }
-
 a {
   text-decoration: none;
   transition: color 1s;
   text-emphasis: none;
   color: rgb(0, 239, 199);
   }
-  a:hover{
-      
-      color: #570d9c;
+a:hover{   
+    color: #570d9c;
   }
-  @font-face{
-    font-family: Oath;
-    src: url("fonts/Oath_Two.ttf");
-    font-weight: 800;
-    
+@font-face{
+  font-family: Oath;
+  src: url("fonts/Oath_Two.ttf");
+  font-weight: 800; 
   }
-  @font-face{
-    font-family: Butler;
-      src: url("fonts/Butler_Black.otf");
-    font-weight: 800;
+@font-face{
+  font-family: Butler;
+  src: url("fonts/Butler_Black.otf");
+  font-weight: 800;
     }
  
 #desc{
-
   position: relative;
   top: -24vh;
 }
-
-
 .arrow{
   height: 6vh;
   position: relative;
