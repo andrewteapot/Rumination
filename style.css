@@ -39,12 +39,14 @@ ul{
 #spi{
 position: relative;
 height: 46vh;
+width: 46vh;
 transition: transform 0.5s;
 transition-timing-function: linear;
 }
 #ban{
     position: absolute;
     height: 46vh;
+    width:46vh;
 }
 #citrine{
 position: relative;
@@ -102,6 +104,7 @@ margin-right: 50px;
 position: relative;
 top: 3vh;
 height: 14vh;
+width: 7.857142857142857vh;
 }
 #somenav{
   position: relative;
@@ -140,6 +143,7 @@ a:hover{
 }
 .arrow{
   height: 6vh;
+  width: 6vh;
   position: relative;
   top: -4vh;
 }
