@@ -136,7 +136,6 @@ a:hover{
   src: url("fonts/Butler_Black.otf");
   font-weight: 800;
     }
- 
 #desc{
   position: relative;
   top: -24vh;
@@ -149,5 +148,4 @@ a:hover{
 }
 #panel{
   position: relative;
- 
 }
